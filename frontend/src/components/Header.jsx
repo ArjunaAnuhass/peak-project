@@ -5,7 +5,6 @@ import {
   ShoppingCart,
   User,
 } from "lucide-react";
-import MenuItems from "./MenuItems";
 
 function Header() {
   return (
@@ -26,7 +25,7 @@ function Header() {
       </div>
 
       <div className="flex items-center gap-4 text-sm text-gray-700">
-        <div className="hidden lg:flex items-cente justify-betweenr">
+        <div className="hidden lg:flex items-center justify-between">
           <MapPin size={30} />
           <div className="flex flex-col ml-1">
             <span>STORE LOCATOR</span>

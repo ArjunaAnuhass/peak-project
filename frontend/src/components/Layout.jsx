@@ -1,4 +1,5 @@
 import AnnouncementBar from "./AnnouncementBar";
+import ConstantBanner from "./ConstantBanner";
 import Header from "./Header";
 import MenuItems from "./MenuItems";
 
@@ -8,6 +9,7 @@ function Layout() {
       <AnnouncementBar />
       <Header />
       <MenuItems />
+      <ConstantBanner/>
     </div>
   );
 }
