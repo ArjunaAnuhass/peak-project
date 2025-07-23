@@ -1,4 +1,4 @@
-import AnnouncementBar from "./announcementBar";
+import AnnouncementBar from "./AnnouncementBar";
 import Header from "./Header";
 import MenuItems from "./MenuItems";
 
