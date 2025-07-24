@@ -39,7 +39,7 @@ function HomePage() {
             <ChevronRight onClick={() => setCurrentIndex((currentIndex) => (currentIndex + 1) % banners.length)} className="h-4 w-4" />
           </div>
           <div onClick={() => setIsPlaying((prev) => !prev)} className="bg-white px-2 py-2 rounded-full flex items-center">
-            {isPlaying ? <Play className="px-1 py-1" /> : <Pause className="px-1 py-1" />}
+            {isPlaying ? <Pause className="px-1 py-1" /> : <Play className="px-1 py-1" /> }
         </div>
         </div>
         
