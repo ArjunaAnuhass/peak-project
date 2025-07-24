@@ -12,6 +12,9 @@
   --color-secondary: #f7efe6;
   --color-customGreen: #2e853a;
   --color-customYellow: #b49f71;
+  --color-banner01Button: #88bc4e;
+  --color-banner02Button: #4ca86f;
+  --color-banner03Button: #2c8031;
 }
 
 @theme inline {
