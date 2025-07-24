@@ -7,7 +7,7 @@ const banners = [<Banner01 />, <Banner02 />, <Banner03 />];
 
 function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   useEffect(() => {
     if (!isPlaying) return;
