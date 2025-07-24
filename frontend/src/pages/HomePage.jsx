@@ -20,7 +20,7 @@ function HomePage() {
   return (
     <section>
       <Layout />
-      <div className="relative overflow-hidden max-w-7xl mx-auto px-2">
+      <div className="relative overflow-hidden max-w-7xl mx-auto px-2 mt-10">
         <div className="transition-all duration-700 ease-in-out">
           {banners[currentIndex]}
         </div>
