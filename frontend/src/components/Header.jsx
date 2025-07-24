@@ -28,7 +28,7 @@ function Header() {
         <div className="hidden lg:flex items-center justify-between">
           <MapPin size={30} />
           <div className="flex flex-col ml-1">
-            <span>STORE LOCATOR</span>
+            <span className="font-bold text-[12px]">STORE LOCATOR</span>
             <span className="text-xs mr-7">Click & Collect today.</span>
           </div>
         </div>
